@@ -7,7 +7,7 @@
  * Return: max integer in the array
  */
 
-int get_max(int * array, int size)
+int get_max(int *array, int size)
 {
 	int max, j;
 
@@ -57,7 +57,7 @@ void counting_sort(int *array, size_t size)
 		count[array[j]] -= 1;
 	}
 	for (j = 0; j < (int)size; j++)
-		array[j] = sortted [j];
+		array[j] = sortted[j];
 
 	free(sortted);
 	free(count);
